@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<ESBService xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>69c19686-9f38-4735-9435-2afaee3408fa</Id>
+  <Version>78080e3e-be8b-41dc-a3ef-0684cdc7b25c</Version>
+  <BusinessFlows />
+  <Description />
+  <Name>ServiceConnector</Name>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <Bindings>
+    <ExpressionBoundProperty>
+      <PropertyName>Enabled</PropertyName>
+      <Expression>{$Variable1}</Expression>
+    </ExpressionBoundProperty>
+    <ExpressionBoundProperty>
+      <PropertyName>ACL</PropertyName>
+      <Expression>{$Variable2}{$Variable1}</Expression>
+    </ExpressionBoundProperty>
+  </Bindings>
+  <Topic />
+  <Pattern>1</Pattern>
+  <Properties />
+  <MessagingPattern>Request-Reply</MessagingPattern>
+  <ProxySettings>
+    <HostConfigType>Default</HostConfigType>
+    <CredentialConfigType>NotSpecified</CredentialConfigType>
+    <Credential>&lt;Default&gt;</Credential>
+    <Host />
+    <Port>0</Port>
+    <BypassLocalAddress>false</BypassLocalAddress>
+  </ProxySettings>
+  <Enabled>true</Enabled>
+  <Zone>Enterprise</Zone>
+  <ServiceName>ServiceConnector</ServiceName>
+  <AvailabilityGroupId />
+  <ServiceGroup>General</ServiceGroup>
+  <Behavior />
+  <Binding>BasicHttp</Binding>
+  <KeepAlive>true</KeepAlive>
+  <HostNameComparisonModeIsExact>false</HostNameComparisonModeIsExact>
+  <TransactionType>None</TransactionType>
+  <MaxMessageSize>1000000</MaxMessageSize>
+  <ReliableMessaging>false</ReliableMessaging>
+  <ConfigFile />
+  <InboundPolling>false</InboundPolling>
+  <OptimizeForLargeMessages>false</OptimizeForLargeMessages>
+  <RawBody>false</RawBody>
+  <ServiceThrottles>
+    <MaxConcurrentCalls>104</MaxConcurrentCalls>
+    <MaxConcurrentInstances>100</MaxConcurrentInstances>
+    <MaxConcurrentSessions>100</MaxConcurrentSessions>
+  </ServiceThrottles>
+  <CertificateValidationMode>None</CertificateValidationMode>
+  <CertificateRevocationMode>NoCheck</CertificateRevocationMode>
+  <NegotiateServiceCredential>true</NegotiateServiceCredential>
+  <EstablishSecurityContext>true</EstablishSecurityContext>
+  <Contract />
+  <Security>None</Security>
+  <ServiceIdentityType>None</ServiceIdentityType>
+  <ServicePrincipal />
+  <ServiceType>Business</ServiceType>
+  <ClientCredentialtype>Certificate</ClientCredentialtype>
+  <Impersonation>false</Impersonation>
+  <RelayAccessToken>true</RelayAccessToken>
+  <ClientConnectorId>11d70e59-f0e3-4184-bc71-5615e0497748</ClientConnectorId>
+  <ClientUrl />
+  <RouteClientTraffic>false</RouteClientTraffic>
+  <ClientTopic />
+  <UpdateMetadata>true</UpdateMetadata>
+  <UseHttps>false</UseHttps>
+  <EnableClientMetadataHttpEndpoint>false</EnableClientMetadataHttpEndpoint>
+  <EnableClientMetadataHttpsEndpoint>false</EnableClientMetadataHttpsEndpoint>
+  <ClientSubscriberId>Publisher1</ClientSubscriberId>
+  <CaptureHeaders>true</CaptureHeaders>
+  <CaptureHTTPHeaders>false</CaptureHTTPHeaders>
+  <HttpConnectionLimit>100</HttpConnectionLimit>
+  <EnableCors>false</EnableCors>
+  <ClientCertName />
+  <ACL />
+  <AccessUrl>http://yahoo.com</AccessUrl>
+  <RouteServiceTraffic>true</RouteServiceTraffic>
+  <RestoreHeaders>true</RestoreHeaders>
+  <RestoreHTTPHeaders>false</RestoreHTTPHeaders>
+  <ServiceSubscriberId>Subscriber1</ServiceSubscriberId>
+  <ReuseServiceConnection>true</ReuseServiceConnection>
+  <ServerCertName />
+  <ServicePolicy>Default</ServicePolicy>
+  <FailoverAddresses />
+  <FarmSingleInstance>false</FarmSingleInstance>
+  <ProcessList />
+  <ClientProcessMode>false</ClientProcessMode>
+  <ServiceProcessMode>false</ServiceProcessMode>
+  <ServiceServiceRateEnable>false</ServiceServiceRateEnable>
+  <ClientServiceRateEnable>false</ClientServiceRateEnable>
+</ESBService>

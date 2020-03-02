@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<ESBDeployment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>8d250529-e0fc-4dd5-89a4-1b03534e4826</Id>
+  <Version>9e039531-9a19-4220-8879-6ec336b95d4f</Version>
+  <BusinessFlows />
+  <Description>Run everything on local machine</Description>
+  <Name>mahesh-mac</Name>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <NeuronEnvironmentVariables>
+    <item>
+      <key>
+        <string>Variable1</string>
+      </key>
+      <value>
+        <string>MWKJ47QSUIe/hPhE0d+54w==</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Variable2</string>
+      </key>
+      <value>
+        <string>O88VB71Hc2/hGpW4Nbrf5g==</string>
+      </value>
+    </item>
+  </NeuronEnvironmentVariables>
+  <AmqpConnectionList>
+    <AmqpConnectionProperties>
+      <Server>localhost</Server>
+      <Port>-1</Port>
+      <HealthPort>15672</HealthPort>
+      <VHost>/</VHost>
+      <Username>gcMEvMZhYW2mg8bNoVyb+g==</Username>
+      <Password>gcMEvMZhYW2mg8bNoVyb+g==</Password>
+    </AmqpConnectionProperties>
+  </AmqpConnectionList>
+  <AmqpPort>0</AmqpPort>
+  <AmqpManagementPort>0</AmqpManagementPort>
+  <Zone>Enterprise</Zone>
+  <Enabled>true</Enabled>
+  <Active>true</Active>
+  <ServerTopology>0</ServerTopology>
+  <Units>
+    <ESBDeploymentUnit>
+      <MachineName>mahesh-mac</MachineName>
+      <IsESBServer>true</IsESBServer>
+      <IsQueueServer>true</IsQueueServer>
+    </ESBDeploymentUnit>
+  </Units>
+</ESBDeployment>

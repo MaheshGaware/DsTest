@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<EsbAvailabilityGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>8228673f-0195-4fd6-bc5c-a01577eeda0d</Id>
+  <Version>d7867aa8-5991-4245-b6be-eeb04e0c659d</Version>
+  <BusinessFlows />
+  <Description>Neuron ESB Scheduler</Description>
+  <Name>Neuron ESB Scheduler</Name>
+  <IsSystemObject>true</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <IsScheduler>true</IsScheduler>
+  <Category />
+  <RunAs />
+  <IsEnabled>true</IsEnabled>
+  <RunInDocker>false</RunInDocker>
+  <DeploymentGroups>
+    <EsbAvailabilityGroupDeploymentGroupMapping>
+      <DeploymentGroup>mahesh-mac</DeploymentGroup>
+      <Servers>
+        <DeploymentServer>
+          <ServerName>mahesh-mac</ServerName>
+          <Role>Primary</Role>
+          <RetryCount>2</RetryCount>
+          <RetryInterval>5</RetryInterval>
+          <IsEnabled>true</IsEnabled>
+        </DeploymentServer>
+      </Servers>
+    </EsbAvailabilityGroupDeploymentGroupMapping>
+  </DeploymentGroups>
+</EsbAvailabilityGroup>

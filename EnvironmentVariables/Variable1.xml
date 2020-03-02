@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<NeuronVariable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>28d6973c-4cc7-48f3-a9e4-51b2529b0c1e</Id>
+  <Version>e1d3bda8-d945-4d02-b9d0-418747450423</Version>
+  <BusinessFlows />
+  <Description />
+  <Name>Variable1</Name>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <Mask>false</Mask>
+</NeuronVariable>

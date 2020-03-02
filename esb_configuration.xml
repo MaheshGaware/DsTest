@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<ESBConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>7</Version>
+  <EnvironmentName>ConnectorEndPoints</EnvironmentName>
+  <NeuronBuildVersion>3.7.0.539</NeuronBuildVersion>
+  <ApplicationName>ConnectorEndPoints</ApplicationName>
+  <ApplicationId>47bb0448-bee0-4d2d-bd88-b57b46663798</ApplicationId>
+  <ZoneName>Enterprise</ZoneName>
+  <ChangeList>
+    <Additions>
+      <string>Add,Enterprise,publisher,Publisher1</string>
+      <string>Add,Enterprise,subscriber,Subscriber1</string>
+    </Additions>
+    <Revisions>
+      <string>Edit,Enterprise,service endpoint,ServiceConnector</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector</string>
+    </Revisions>
+    <Deletions>
+      <string>Delete,Enterprise,service endpoint,Service1</string>
+      <string>Delete,Enterprise,service endpoint,Service12</string>
+    </Deletions>
+    <LastModifiedBy />
+    <LastModifiedDate>2020-02-25T12:08:25.8065876Z</LastModifiedDate>
+    <Comments />
+  </ChangeList>
+  <NeuronEnvironmentVariables />
+  <ProcessFolders />
+  <InstanceName />
+  <Zones />
+  <Topics />
+  <Subscribers />
+  <Services />
+  <WorkflowDefinitions />
+  <WorkflowHosts />
+  <AvailabilityGroups />
+  <OAuthProviders />
+  <ESBMessagePipelines />
+  <Schemas />
+  <JsonSchemas />
+  <XmlDocs />
+  <TextDocs />
+  <JsonDocs />
+  <SwaggerDocs />
+  <WsdlDocuments />
+  <Xslts />
+  <BusinessEvents />
+  <Deployments />
+  <MessagePatterns />
+  <Bridges />
+  <Databases />
+  <Keys />
+  <Workflows />
+  <Applications />
+  <BusinessFlows />
+  <Bindings />
+  <Behaviors />
+  <Adapters />
+  <Credentials />
+  <ServicePolicies />
+  <AdapterPolicies />
+  <Endpoints />
+  <AccessControlLists />
+  <Administrators />
+  <IsEncrypted>false</IsEncrypted>
+</ESBConfiguration>

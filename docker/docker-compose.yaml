@@ -1,0 +1,36 @@
+version: '2.1'
+services:
+  neurondb:
+    image: neuronperegrine/neurondb
+    environment:
+      attach_dbs: "[{'dbName':'NeuronESB', 'dbFiles':['c:\\\\NeuronDB.mdf', 'c:\\\\NeurondB_log.ldf']}]"
+      sa_password: "Password123"
+      HOSTNAME: neurondb
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+  connectorendpoints:
+    image: neuronperegrine/neuronesb
+    entrypoint: /app/ESBService.exe
+    env_file: config.env
+    environment:
+      controlPort: 50004
+      HOSTNAME: connectorendpoints
+    depends_on:
+      - "neurondb"
+    volumes:
+      - C:\NeuronSolutions\ConnectorEndPoints:C:\NeuronSolutions\ConnectorEndPoints
+    ports:
+      - 50000:50000
+      - 50010-50100:50010-50100
+      - 50004:50004
+      - 50002:50002
+      - 50200:50200
+      - 51003:51003
+	  
+    hostname: connectorendpoints
+  #-{NeuronEndpointHostTemplate}
+networks:
+  default:
+    external:
+      name: nat
