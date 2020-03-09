@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
-<ESBService xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ESBService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Id>69c19686-9f38-4735-9435-2afaee3408fa</Id>
   <Version>78080e3e-be8b-41dc-a3ef-0684cdc7b25c</Version>
-  <BusinessFlows />
+  <BusinessFlows>
+    <string>BusinessFlow1</string>
+  </BusinessFlows>
   <Description />
   <Name>ServiceConnector</Name>
   <Group>General</Group>
@@ -30,13 +32,13 @@
     <Port>0</Port>
     <BypassLocalAddress>false</BypassLocalAddress>
   </ProxySettings>
-  <Enabled>true</Enabled>
   <Zone>Enterprise</Zone>
+  <Enabled>true</Enabled>
   <ServiceName>ServiceConnector</ServiceName>
-  <AvailabilityGroupId />
   <ServiceGroup>General</ServiceGroup>
-  <Behavior />
   <Binding>BasicHttp</Binding>
+  <AvailabilityGroupId />
+  <Behavior />
   <KeepAlive>true</KeepAlive>
   <HostNameComparisonModeIsExact>false</HostNameComparisonModeIsExact>
   <TransactionType>None</TransactionType>

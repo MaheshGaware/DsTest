@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
-<ESBTopic xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ESBTopic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Id>b5213279-ff02-4a5f-980c-120faad95f5f</Id>
   <Version>60666c5c-cdae-41ee-942d-cd8238b7cd5a</Version>
-  <BusinessFlows />
+  <BusinessFlows>
+    <string>BusinessFlow1</string>
+  </BusinessFlows>
   <Description />
   <Name>Topic1</Name>
   <Group>General</Group>
   <IsSystemObject>false</IsSystemObject>
   <IsPrivate>false</IsPrivate>
-  <_auditFailureDetailVerbose>true</_auditFailureDetailVerbose>
-  <_auditMessageProperties>true</_auditMessageProperties>
-  <_auditMessageBody>true</_auditMessageBody>
+  <Enabled>true</Enabled>
+  <TopicGroup>General</TopicGroup>
+  <Zone>Enterprise</Zone>
   <ThrottleType>None</ThrottleType>
   <ThrottleValue>0</ThrottleValue>
   <CompressionType>Never</CompressionType>
   <CompressionSize>20</CompressionSize>
   <CompressionUnit>MB</CompressionUnit>
-  <TopicGroup>General</TopicGroup>
-  <Zone>Enterprise</Zone>
   <ChannelType>wcf/tcp</ChannelType>
   <ChannelProperties>
     <NameValuePair>
@@ -105,15 +105,14 @@
       <Value>10</Value>
     </NameValuePair>
   </ChannelProperties>
-  <AuditBeforePublishPipelineExecutes>false</AuditBeforePublishPipelineExecutes>
-  <AuditAfterReceivePipelineExecutes>false</AuditAfterReceivePipelineExecutes>
-  <AsynchronousAudit>true</AsynchronousAudit>
   <AuditMessages>false</AuditMessages>
-  <AuditWhenNoRecipients>false</AuditWhenNoRecipients>
-  <AuditFailureDetailVerbose>true</AuditFailureDetailVerbose>
   <AuditMessageProperties>true</AuditMessageProperties>
   <AuditMessageBody>true</AuditMessageBody>
-  <Enabled>true</Enabled>
+  <AuditBeforePublishPipelineExecutes>false</AuditBeforePublishPipelineExecutes>
+  <AuditAfterReceivePipelineExecutes>false</AuditAfterReceivePipelineExecutes>
+  <AuditWhenNoRecipients>false</AuditWhenNoRecipients>
+  <AuditFailureDetailVerbose>true</AuditFailureDetailVerbose>
+  <AsynchronousAudit>true</AsynchronousAudit>
   <Encrypted>false</Encrypted>
   <EncryptionMethod>(None)</EncryptionMethod>
   <EncryptionCredentials />
