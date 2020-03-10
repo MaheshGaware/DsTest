@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<ESBService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ESBService xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Id>69c19686-9f38-4735-9435-2afaee3408fa</Id>
-  <Version>78080e3e-be8b-41dc-a3ef-0684cdc7b25c</Version>
+  <Version>0ae50f3f-a261-46a6-95b3-b32ff591dedb</Version>
   <BusinessFlows>
     <string>BusinessFlow1</string>
   </BusinessFlows>
@@ -23,76 +23,76 @@
   <Topic />
   <Pattern>1</Pattern>
   <Properties />
-  <MessagingPattern>Request-Reply</MessagingPattern>
+  <MessagingPattern>Datagram</MessagingPattern>
   <ProxySettings>
     <HostConfigType>Default</HostConfigType>
     <CredentialConfigType>NotSpecified</CredentialConfigType>
-    <Credential>&lt;Default&gt;</Credential>
-    <Host />
-    <Port>0</Port>
-    <BypassLocalAddress>false</BypassLocalAddress>
+    <Credential>Credential1</Credential>
+    <Host>gghgh</Host>
+    <Port>666</Port>
+    <BypassLocalAddress>true</BypassLocalAddress>
   </ProxySettings>
-  <Zone>Enterprise</Zone>
   <Enabled>true</Enabled>
+  <Zone>Enterprise</Zone>
   <ServiceName>ServiceConnector</ServiceName>
-  <ServiceGroup>General</ServiceGroup>
-  <Binding>BasicHttp</Binding>
   <AvailabilityGroupId />
+  <ServiceGroup>General</ServiceGroup>
   <Behavior />
+  <Binding>BasicHttp</Binding>
   <KeepAlive>true</KeepAlive>
-  <HostNameComparisonModeIsExact>false</HostNameComparisonModeIsExact>
-  <TransactionType>None</TransactionType>
+  <HostNameComparisonModeIsExact>true</HostNameComparisonModeIsExact>
+  <TransactionType>NeuronManaged</TransactionType>
   <MaxMessageSize>1000000</MaxMessageSize>
   <ReliableMessaging>false</ReliableMessaging>
   <ConfigFile />
   <InboundPolling>false</InboundPolling>
   <OptimizeForLargeMessages>false</OptimizeForLargeMessages>
-  <RawBody>false</RawBody>
+  <RawBody>true</RawBody>
   <ServiceThrottles>
     <MaxConcurrentCalls>104</MaxConcurrentCalls>
     <MaxConcurrentInstances>100</MaxConcurrentInstances>
     <MaxConcurrentSessions>100</MaxConcurrentSessions>
   </ServiceThrottles>
-  <CertificateValidationMode>None</CertificateValidationMode>
-  <CertificateRevocationMode>NoCheck</CertificateRevocationMode>
+  <CertificateValidationMode>PeerTrust</CertificateValidationMode>
+  <CertificateRevocationMode>Online</CertificateRevocationMode>
   <NegotiateServiceCredential>true</NegotiateServiceCredential>
   <EstablishSecurityContext>true</EstablishSecurityContext>
   <Contract />
-  <Security>None</Security>
-  <ServiceIdentityType>None</ServiceIdentityType>
-  <ServicePrincipal />
+  <Security>Transport:Ntlm</Security>
+  <ServiceIdentityType>Dns</ServiceIdentityType>
+  <ServicePrincipal>SecurityIdVaue</ServicePrincipal>
   <ServiceType>Business</ServiceType>
   <ClientCredentialtype>Certificate</ClientCredentialtype>
-  <Impersonation>false</Impersonation>
+  <Impersonation>true</Impersonation>
   <RelayAccessToken>true</RelayAccessToken>
   <ClientConnectorId>11d70e59-f0e3-4184-bc71-5615e0497748</ClientConnectorId>
-  <ClientUrl />
-  <RouteClientTraffic>false</RouteClientTraffic>
-  <ClientTopic />
+  <ClientUrl>https://googlec.com</ClientUrl>
+  <RouteClientTraffic>true</RouteClientTraffic>
+  <ClientTopic>Topic1</ClientTopic>
   <UpdateMetadata>true</UpdateMetadata>
   <UseHttps>false</UseHttps>
   <EnableClientMetadataHttpEndpoint>false</EnableClientMetadataHttpEndpoint>
   <EnableClientMetadataHttpsEndpoint>false</EnableClientMetadataHttpsEndpoint>
   <ClientSubscriberId>Publisher1</ClientSubscriberId>
   <CaptureHeaders>true</CaptureHeaders>
-  <CaptureHTTPHeaders>false</CaptureHTTPHeaders>
+  <CaptureHTTPHeaders>true</CaptureHTTPHeaders>
   <HttpConnectionLimit>100</HttpConnectionLimit>
-  <EnableCors>false</EnableCors>
+  <EnableCors>true</EnableCors>
   <ClientCertName />
   <ACL />
-  <AccessUrl>http://yahoo.com</AccessUrl>
-  <RouteServiceTraffic>true</RouteServiceTraffic>
-  <RestoreHeaders>true</RestoreHeaders>
+  <AccessUrl>https://yahoos.com</AccessUrl>
+  <RouteServiceTraffic>false</RouteServiceTraffic>
+  <RestoreHeaders>false</RestoreHeaders>
   <RestoreHTTPHeaders>false</RestoreHTTPHeaders>
   <ServiceSubscriberId>Subscriber1</ServiceSubscriberId>
-  <ReuseServiceConnection>true</ReuseServiceConnection>
+  <ReuseServiceConnection>false</ReuseServiceConnection>
   <ServerCertName />
-  <ServicePolicy>Default</ServicePolicy>
-  <FailoverAddresses />
+  <ServicePolicy />
+  <FailoverAddresses>http://yahoofo1.com,http://yahoofo2.com</FailoverAddresses>
   <FarmSingleInstance>false</FarmSingleInstance>
   <ProcessList />
   <ClientProcessMode>false</ClientProcessMode>
   <ServiceProcessMode>false</ServiceProcessMode>
   <ServiceServiceRateEnable>false</ServiceServiceRateEnable>
-  <ClientServiceRateEnable>false</ClientServiceRateEnable>
+  <ClientServiceRateEnable>true</ClientServiceRateEnable>
 </ESBService>

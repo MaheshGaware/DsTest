@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<ESBService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ESBService xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Id>bc325e58-fbf9-4c69-adb2-26aa0af316c2</Id>
-  <Version>7dbc73f9-0655-4fa0-a4a0-5d707c6ab41d</Version>
+  <Version>7866484c-80dd-4d0f-9eea-aa21adda5970</Version>
   <BusinessFlows>
     <string>BusinessFlow1</string>
   </BusinessFlows>
@@ -23,13 +23,13 @@
     <Port>0</Port>
     <BypassLocalAddress>false</BypassLocalAddress>
   </ProxySettings>
-  <Zone>Enterprise</Zone>
   <Enabled>true</Enabled>
+  <Zone>Enterprise</Zone>
   <ServiceName>ClientConnector</ServiceName>
-  <ServiceGroup>General</ServiceGroup>
-  <Binding>BasicHttp</Binding>
   <AvailabilityGroupId />
+  <ServiceGroup>General</ServiceGroup>
   <Behavior />
+  <Binding>BasicHttp</Binding>
   <KeepAlive>true</KeepAlive>
   <HostNameComparisonModeIsExact>false</HostNameComparisonModeIsExact>
   <TransactionType>None</TransactionType>
@@ -57,7 +57,7 @@
   <Impersonation>false</Impersonation>
   <RelayAccessToken>true</RelayAccessToken>
   <ClientConnectorId>db94c9d7-f8bf-46a1-bdd9-df806aa6d2dc</ClientConnectorId>
-  <ClientUrl>http://google.com</ClientUrl>
+  <ClientUrl>http://googlec.com</ClientUrl>
   <RouteClientTraffic>true</RouteClientTraffic>
   <ClientTopic>Topic1</ClientTopic>
   <UpdateMetadata>true</UpdateMetadata>

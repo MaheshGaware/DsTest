@@ -1,26 +1,19 @@
 <?xml version="1.0"?>
-<ESBConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Version>8</Version>
+<ESBConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>31</Version>
   <EnvironmentName>ConnectorEndPoints</EnvironmentName>
-  <NeuronBuildVersion>0.1.0.002</NeuronBuildVersion>
+  <NeuronBuildVersion>3.7.0.539</NeuronBuildVersion>
   <ApplicationName>ConnectorEndPoints</ApplicationName>
   <ApplicationId>47bb0448-bee0-4d2d-bd88-b57b46663798</ApplicationId>
   <ZoneName>Enterprise</ZoneName>
   <ChangeList>
-    <Additions>
-      <string>Add,*,application definition,New Application1</string>
-      <string>Add,*,businessflow definition,BusinessFlow1</string>
-    </Additions>
+    <Additions />
     <Revisions>
-      <string>Edit,Enterprise,service endpoint,ClientConnector</string>
-      <string>Edit,Enterprise,publisher,Publisher1</string>
       <string>Edit,Enterprise,service endpoint,ServiceConnector</string>
-      <string>Edit,Enterprise,subscriber,Subscriber1</string>
-      <string>Edit,Enterprise,topic,Topic1</string>
     </Revisions>
     <Deletions />
     <LastModifiedBy />
-    <LastModifiedDate>2020-03-09T03:05:40.4033342Z</LastModifiedDate>
+    <LastModifiedDate>2020-03-10T01:29:44.5493953Z</LastModifiedDate>
     <Comments />
   </ChangeList>
   <NeuronEnvironmentVariables />
