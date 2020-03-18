@@ -1,17 +1,29 @@
 <?xml version="1.0"?>
 <ESBConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Version>36</Version>
+  <Version>37</Version>
   <EnvironmentName>ConnectorEndPoints</EnvironmentName>
   <NeuronBuildVersion>0.1.0.002</NeuronBuildVersion>
   <ApplicationName>ConnectorEndPoints</ApplicationName>
   <ApplicationId>47bb0448-bee0-4d2d-bd88-b57b46663798</ApplicationId>
   <ZoneName>Enterprise</ZoneName>
   <ChangeList>
-    <Additions />
-    <Revisions />
+    <Additions>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+    </Additions>
+    <Revisions>
+      <string>Edit,*,pipeline,ClientConnector3SpecialProcess</string>
+    </Revisions>
     <Deletions />
     <LastModifiedBy />
-    <LastModifiedDate>2020-03-18T02:34:14.5031252Z</LastModifiedDate>
+    <LastModifiedDate>2020-03-18T02:36:18.5814163Z</LastModifiedDate>
     <Comments />
   </ChangeList>
   <NeuronEnvironmentVariables />

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ESBService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Id>f2c1cd25-7afc-4b22-ba23-f014c8b5f0f8</Id>
-  <Version>bec9e70d-26e4-4515-a4ed-2c716c577877</Version>
+  <Version>c6d56346-4e08-49e6-8240-c3422ee681e8</Version>
   <BusinessFlows>
     <string>ProcessFlow1</string>
   </BusinessFlows>
