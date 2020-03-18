@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ESBService xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Id>bc325e58-fbf9-4c69-adb2-26aa0af316c2</Id>
-  <Version>7866484c-80dd-4d0f-9eea-aa21adda5970</Version>
+  <Version>b7f57af3-c90c-4525-98fd-fb2297a3c5a0</Version>
   <BusinessFlows>
     <string>BusinessFlow1</string>
   </BusinessFlows>
@@ -26,10 +26,10 @@
   <Enabled>true</Enabled>
   <Zone>Enterprise</Zone>
   <ServiceName>ClientConnector</ServiceName>
-  <AvailabilityGroupId />
+  <AvailabilityGroupId>Neuron ESB Default Host</AvailabilityGroupId>
   <ServiceGroup>General</ServiceGroup>
   <Behavior />
-  <Binding>BasicHttp</Binding>
+  <Binding>REST</Binding>
   <KeepAlive>true</KeepAlive>
   <HostNameComparisonModeIsExact>false</HostNameComparisonModeIsExact>
   <TransactionType>None</TransactionType>
@@ -62,8 +62,11 @@
   <ClientTopic>Topic1</ClientTopic>
   <UpdateMetadata>true</UpdateMetadata>
   <UseHttps>false</UseHttps>
-  <EnableClientMetadataHttpEndpoint>false</EnableClientMetadataHttpEndpoint>
+  <WsdlDocumentId>WsdlDoc1</WsdlDocumentId>
+  <EnableClientMetadataHttpEndpoint>true</EnableClientMetadataHttpEndpoint>
+  <ClientMetadataHttpUrl />
   <EnableClientMetadataHttpsEndpoint>false</EnableClientMetadataHttpsEndpoint>
+  <ClientMetadataHttpsUrl />
   <ClientSubscriberId>Publisher1</ClientSubscriberId>
   <CaptureHeaders>true</CaptureHeaders>
   <CaptureHTTPHeaders>false</CaptureHTTPHeaders>
@@ -71,6 +74,7 @@
   <EnableCors>false</EnableCors>
   <ClientCertName />
   <ACL />
+  <ExternalMetadataLocation />
   <AccessUrl />
   <RouteServiceTraffic>false</RouteServiceTraffic>
   <RestoreHeaders>true</RestoreHeaders>
@@ -81,7 +85,28 @@
   <ServicePolicy>Default</ServicePolicy>
   <FailoverAddresses />
   <FarmSingleInstance>false</FarmSingleInstance>
-  <ProcessList />
+  <ProcessList>
+    <ClientPipelineItem>
+      <Id>8b911bde-f07c-46d6-8179-0369fe12c983</Id>
+      <Version>ec25cafc-15a5-40a1-9987-6665dbf6a2f5</Version>
+      <BusinessFlows />
+      <Description />
+      <Name>Process1</Name>
+      <IsSystemObject>false</IsSystemObject>
+      <IsPrivate>false</IsPrivate>
+      <ApplyOnPublish>true</ApplyOnPublish>
+      <ApplyOnReceive>false</ApplyOnReceive>
+      <PipelineConditions>
+        <Id>f2dabef9-e053-42f8-bed2-64a0d2bb7168</Id>
+        <Version>6e8f7882-a0b7-4507-b8ef-0325e8af8856</Version>
+        <BusinessFlows />
+        <Description />
+        <IsSystemObject>false</IsSystemObject>
+        <IsPrivate>false</IsPrivate>
+        <Condition />
+      </PipelineConditions>
+    </ClientPipelineItem>
+  </ProcessList>
   <ClientProcessMode>false</ClientProcessMode>
   <ServiceProcessMode>false</ServiceProcessMode>
   <ServiceServiceRateEnable>false</ServiceServiceRateEnable>

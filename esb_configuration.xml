@@ -1,19 +1,23 @@
 <?xml version="1.0"?>
 <ESBConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Version>31</Version>
+  <Version>34</Version>
   <EnvironmentName>ConnectorEndPoints</EnvironmentName>
   <NeuronBuildVersion>3.7.0.539</NeuronBuildVersion>
   <ApplicationName>ConnectorEndPoints</ApplicationName>
   <ApplicationId>47bb0448-bee0-4d2d-bd88-b57b46663798</ApplicationId>
   <ZoneName>Enterprise</ZoneName>
   <ChangeList>
-    <Additions />
+    <Additions>
+      <string>Add,*,swagger document,SwaggerDoc1</string>
+      <string>Add,*,JSON Schema,JsonSchema1</string>
+    </Additions>
     <Revisions>
-      <string>Edit,Enterprise,service endpoint,ServiceConnector</string>
+      <string>Edit,*,text document,TextDoc1</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector</string>
     </Revisions>
     <Deletions />
     <LastModifiedBy />
-    <LastModifiedDate>2020-03-10T01:29:44.5493953Z</LastModifiedDate>
+    <LastModifiedDate>2020-03-16T13:39:04.342284Z</LastModifiedDate>
     <Comments />
   </ChangeList>
   <NeuronEnvironmentVariables />
@@ -28,14 +32,267 @@
   <AvailabilityGroups />
   <OAuthProviders />
   <ESBMessagePipelines />
-  <Schemas />
-  <JsonSchemas />
-  <XmlDocs />
-  <TextDocs />
-  <JsonDocs />
-  <SwaggerDocs />
-  <WsdlDocuments />
-  <Xslts />
+  <Schemas>
+    <item>
+      <key>
+        <string>Schema1</string>
+      </key>
+      <value>
+        <ESBSchema>
+          <Id>30590533-8e28-4101-a3ba-a038e7499f85</Id>
+          <Version>7a69fca2-a508-490e-bee1-87575a70b683</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>Schema1</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <FullName>http://tempuri.org/Schema1</FullName>
+          <ValidateWithService>false</ValidateWithService>
+          <Storing>false</Storing>
+          <ServiceAddress />
+          <SchemaVersion>1</SchemaVersion>
+          <SourceUri />
+          <TargetNamespace />
+          <ShortName>Schema1</ShortName>
+          <Xsd />
+        </ESBSchema>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Schema</string>
+      </key>
+      <value>
+        <ESBSchema>
+          <Id>c651bacb-4e46-4b93-9996-7ac45ff37044</Id>
+          <Version>0c4fb01c-ab93-4396-b314-2447cb807d5b</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>Schema</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <FullName>http://tempuri.org/Schema2</FullName>
+          <ValidateWithService>false</ValidateWithService>
+          <Storing>false</Storing>
+          <ServiceAddress />
+          <SchemaVersion>1</SchemaVersion>
+          <SourceUri />
+          <TargetNamespace />
+          <ShortName>Schema</ShortName>
+          <Xsd />
+        </ESBSchema>
+      </value>
+    </item>
+  </Schemas>
+  <JsonSchemas>
+    <item>
+      <key>
+        <string>JsonSchema1</string>
+      </key>
+      <value>
+        <ESBJsonSchema>
+          <Id>8c9710c9-a913-476f-bd5f-58ba7e69eb2d</Id>
+          <Version>6cca4b56-6741-4e7f-a73f-f6a62a9e40c5</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>JsonSchema1</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <FullName>http://tempuri.org/JsonSchema1</FullName>
+          <Storing>false</Storing>
+          <SchemaVersion />
+          <SourceUri />
+          <ShortName>JsonSchema1</ShortName>
+          <Text />
+        </ESBJsonSchema>
+      </value>
+    </item>
+  </JsonSchemas>
+  <XmlDocs>
+    <item>
+      <key>
+        <string>XmlDoc1</string>
+      </key>
+      <value>
+        <ESBXmlDoc>
+          <Id>3aaaf24d-37c9-42f3-a9df-9ff86316dc66</Id>
+          <Version>f5617855-a4ce-4661-99e4-3a1609fc19bb</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>XmlDoc1</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <XmlVersion />
+          <SourceUri />
+          <Storing>false</Storing>
+          <Xml />
+        </ESBXmlDoc>
+      </value>
+    </item>
+  </XmlDocs>
+  <TextDocs>
+    <item>
+      <key>
+        <string>TextDoc1</string>
+      </key>
+      <value>
+        <ESBTextDoc>
+          <Id>df5cdd54-7d18-4741-b6c5-62effe8963a4</Id>
+          <Version>d424e5f5-bccb-47e2-8705-61646077f5e6</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>TextDoc1</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <TextVersion>1.1</TextVersion>
+          <SourceUri />
+          <Storing>false</Storing>
+          <Text />
+        </ESBTextDoc>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>TextDoc</string>
+      </key>
+      <value>
+        <ESBTextDoc>
+          <Id>de1f2923-bb75-4004-b0f3-bd60dc1cefef</Id>
+          <Version>4b7efd5d-3a69-4e78-baa5-8b84e7295fac</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>TextDoc</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <TextVersion>2</TextVersion>
+          <SourceUri />
+          <Storing>false</Storing>
+          <Text />
+        </ESBTextDoc>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>TextDoc2</string>
+      </key>
+      <value>
+        <ESBTextDoc>
+          <Id>136cd98d-01e2-4eac-a9fd-58ea7718d54e</Id>
+          <Version>9996f2d2-d8f0-4e42-9011-259cc38bdeff</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>TextDoc2</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <TextVersion>1</TextVersion>
+          <SourceUri />
+          <Storing>false</Storing>
+          <Text />
+        </ESBTextDoc>
+      </value>
+    </item>
+  </TextDocs>
+  <JsonDocs>
+    <item>
+      <key>
+        <string>JsonDoc1</string>
+      </key>
+      <value>
+        <ESBJsonDoc>
+          <Id>24dc2db0-5a2c-4379-a864-01bc818c413f</Id>
+          <Version>8b6f35ec-331f-4d51-b720-e21839a3da3b</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>JsonDoc1</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <JsonVersion>1</JsonVersion>
+          <SourceUri />
+          <Storing>false</Storing>
+          <HttpMethods />
+          <JsonFormatString />
+          <Text />
+        </ESBJsonDoc>
+      </value>
+    </item>
+  </JsonDocs>
+  <SwaggerDocs>
+    <item>
+      <key>
+        <string>SwaggerDoc1</string>
+      </key>
+      <value>
+        <ESBSwaggerDoc>
+          <Id>319ddff9-b988-46ca-9a2e-be56b40e76e1</Id>
+          <Version>3853ce6d-e6c4-47c0-9ef7-e35396ca6736</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>SwaggerDoc1</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <SourceUri />
+          <Storing>false</Storing>
+          <SwaggerVersion />
+          <Text />
+        </ESBSwaggerDoc>
+      </value>
+    </item>
+  </SwaggerDocs>
+  <WsdlDocuments>
+    <item>
+      <key>
+        <string>WsdlDoc1</string>
+      </key>
+      <value>
+        <ESBXmlDoc>
+          <Id>5dd531da-02d2-4769-a087-464b38b0fb99</Id>
+          <Version>7aed6398-fb37-4348-b64b-66a97a105df8</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>WsdlDoc1</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <XmlVersion />
+          <SourceUri />
+          <Storing>false</Storing>
+          <Xml />
+        </ESBXmlDoc>
+      </value>
+    </item>
+  </WsdlDocuments>
+  <Xslts>
+    <item>
+      <key>
+        <string>Xslt1</string>
+      </key>
+      <value>
+        <ESBXslt>
+          <Id>67bbce5b-91ff-4ed0-9949-2962024631fd</Id>
+          <Version>beb44308-d4e6-437b-a9c7-519d760cae29</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>Xslt1</Name>
+          <Group>Test</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
+          <Xslt />
+          <TestInput />
+          <TestOutput />
+        </ESBXslt>
+      </value>
+    </item>
+  </Xslts>
   <BusinessEvents />
   <Deployments />
   <MessagePatterns />
