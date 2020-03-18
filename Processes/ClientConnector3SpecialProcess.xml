@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ESBMessagePipelineStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>5deaecb2-eeff-4f3c-bc06-3ca9a18e1a00</Id>
+  <Version>9ded6c93-87d0-4ced-a996-770d24c5eb3c</Version>
+  <BusinessFlows>
+    <string>ProcessFlow1</string>
+  </BusinessFlows>
+  <Description />
+  <Name>ClientConnector3SpecialProcess</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <Category>SpecialProcess</Category>
+  <IsEncrypted>true</IsEncrypted>
+  <Path />
+  <PipelineBlob>&lt;ESBMessagePipeline xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.neuronesb.com/pipelines/"&gt;&lt;Category&gt;SpecialProcess&lt;/Category&gt;&lt;Description i:nil="true" /&gt;&lt;GlobalProperties xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"&gt;&lt;d2p1:KeyValueOfstringanyType&gt;&lt;d2p1:Key&gt;NeuronProcess&lt;/d2p1:Key&gt;&lt;d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string"&gt;Process&lt;/d2p1:Value&gt;&lt;/d2p1:KeyValueOfstringanyType&gt;&lt;/GlobalProperties&gt;&lt;Name&gt;ClientConnector3SpecialProcess&lt;/Name&gt;&lt;Properties xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" /&gt;&lt;ReferencedAssemblies xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" /&gt;&lt;Steps&gt;&lt;ESBMessagePipelineStep xmlns:d3p1="http://schemas.neuronesb.com/pipelines/esb/" i:type="d3p1:OdbcStep"&gt;&lt;Bindings xmlns:d4p1="http://schemas.datacontract.org/2004/07/Neuron.ComponentModel" /&gt;&lt;BreakPoint&gt;Disable&lt;/BreakPoint&gt;&lt;Disable&gt;false&lt;/Disable&gt;&lt;Id&gt;ca3654af-f50a-4135-8277-93598239af3e&lt;/Id&gt;&lt;Name&gt;ODBCPipelineStep&lt;/Name&gt;&lt;Uniquename /&gt;&lt;d3p1:Command i:nil="true" /&gt;&lt;d3p1:CommandTimeout&gt;30&lt;/d3p1:CommandTimeout&gt;&lt;d3p1:CommandType&gt;StoredProcedure&lt;/d3p1:CommandType&gt;&lt;d3p1:ConnectionString i:nil="true" /&gt;&lt;d3p1:ConnectionTimeout&gt;15&lt;/d3p1:ConnectionTimeout&gt;&lt;d3p1:EnforceTypedParams&gt;false&lt;/d3p1:EnforceTypedParams&gt;&lt;d3p1:IsolationLevelString&gt;Serializable&lt;/d3p1:IsolationLevelString&gt;&lt;d3p1:MessageSemantic&gt;Multicast&lt;/d3p1:MessageSemantic&gt;&lt;d3p1:Parameters /&gt;&lt;d3p1:QueryGenerateSchema&gt;false&lt;/d3p1:QueryGenerateSchema&gt;&lt;d3p1:QueryLimitRows&gt;0&lt;/d3p1:QueryLimitRows&gt;&lt;d3p1:QueryRootNodeName i:nil="true" /&gt;&lt;d3p1:QueryRootNodeNameSpace i:nil="true" /&gt;&lt;d3p1:QueryRowNodeName i:nil="true" /&gt;&lt;d3p1:SqlEnabled&gt;false&lt;/d3p1:SqlEnabled&gt;&lt;d3p1:ThrowErrorOnException&gt;false&lt;/d3p1:ThrowErrorOnException&gt;&lt;d3p1:TransactionTimeout&gt;60&lt;/d3p1:TransactionTimeout&gt;&lt;d3p1:Transactional&gt;Required&lt;/d3p1:Transactional&gt;&lt;d3p1:UseParameterMapper&gt;false&lt;/d3p1:UseParameterMapper&gt;&lt;d3p1:XPath i:nil="true" /&gt;&lt;/ESBMessagePipelineStep&gt;&lt;/Steps&gt;&lt;/ESBMessagePipeline&gt;</PipelineBlob>
+</ESBMessagePipelineStorage>

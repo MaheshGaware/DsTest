@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<ESBService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>f2c1cd25-7afc-4b22-ba23-f014c8b5f0f8</Id>
+  <Version>bec9e70d-26e4-4515-a4ed-2c716c577877</Version>
+  <BusinessFlows>
+    <string>ProcessFlow1</string>
+  </BusinessFlows>
+  <Description />
+  <Name>ClientConnector3</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <Bindings />
+  <Pattern>0</Pattern>
+  <MessagingPattern>Request-Reply</MessagingPattern>
+  <ProxySettings>
+    <HostConfigType>Default</HostConfigType>
+    <CredentialConfigType>NotSpecified</CredentialConfigType>
+    <Port>0</Port>
+    <BypassLocalAddress>false</BypassLocalAddress>
+  </ProxySettings>
+  <Zone>Enterprise</Zone>
+  <Enabled>true</Enabled>
+  <ServiceName>ClientConnector3</ServiceName>
+  <KeepAlive>true</KeepAlive>
+  <HostNameComparisonModeIsExact>false</HostNameComparisonModeIsExact>
+  <TransactionType>None</TransactionType>
+  <MaxMessageSize>1000000</MaxMessageSize>
+  <ReliableMessaging>false</ReliableMessaging>
+  <InboundPolling>false</InboundPolling>
+  <OptimizeForLargeMessages>false</OptimizeForLargeMessages>
+  <RawBody>false</RawBody>
+  <ServiceThrottles>
+    <MaxConcurrentCalls>104</MaxConcurrentCalls>
+    <MaxConcurrentInstances>100</MaxConcurrentInstances>
+    <MaxConcurrentSessions>100</MaxConcurrentSessions>
+  </ServiceThrottles>
+  <CertificateValidationMode>None</CertificateValidationMode>
+  <CertificateRevocationMode>NoCheck</CertificateRevocationMode>
+  <NegotiateServiceCredential>true</NegotiateServiceCredential>
+  <EstablishSecurityContext>true</EstablishSecurityContext>
+  <Security>None</Security>
+  <ServiceIdentityType>None</ServiceIdentityType>
+  <ServicePrincipal />
+  <ServiceType>Business</ServiceType>
+  <ClientCredentialtype>Certificate</ClientCredentialtype>
+  <Impersonation>false</Impersonation>
+  <RelayAccessToken>true</RelayAccessToken>
+  <ClientConnectorId>4fe627f4-2bff-455b-95fa-fb76b9055724</ClientConnectorId>
+  <ClientUrl>http://localhost/NeuronTest</ClientUrl>
+  <RouteClientTraffic>true</RouteClientTraffic>
+  <ClientTopic />
+  <UpdateMetadata>true</UpdateMetadata>
+  <UseHttps>false</UseHttps>
+  <EnableClientMetadataHttpEndpoint>false</EnableClientMetadataHttpEndpoint>
+  <EnableClientMetadataHttpsEndpoint>false</EnableClientMetadataHttpsEndpoint>
+  <ClientSubscriberId />
+  <CaptureHeaders>false</CaptureHeaders>
+  <CaptureHTTPHeaders>false</CaptureHTTPHeaders>
+  <HttpConnectionLimit>0</HttpConnectionLimit>
+  <EnableCors>false</EnableCors>
+  <RouteServiceTraffic>false</RouteServiceTraffic>
+  <RestoreHeaders>false</RestoreHeaders>
+  <RestoreHTTPHeaders>false</RestoreHTTPHeaders>
+  <ReuseServiceConnection>true</ReuseServiceConnection>
+  <ServicePolicy>Default</ServicePolicy>
+  <FarmSingleInstance>false</FarmSingleInstance>
+  <ProcessList>
+    <ClientPipelineItem>
+      <Id>5deaecb2-eeff-4f3c-bc06-3ca9a18e1a00</Id>
+      <Version>3a802cbc-7e3a-482b-886d-880f82a0dd77</Version>
+      <BusinessFlows>
+        <string>ProcessFlow1</string>
+      </BusinessFlows>
+      <Description />
+      <Name>ClientConnector3SpecialProcess</Name>
+      <IsSystemObject>false</IsSystemObject>
+      <IsPrivate>false</IsPrivate>
+      <ApplyOnPublish>true</ApplyOnPublish>
+      <ApplyOnReceive>false</ApplyOnReceive>
+      <PipelineConditions>
+        <Id>96d9a21d-d2a8-474b-986e-1f625159807d</Id>
+        <Version>0f87d4c9-0f98-4ff9-95fc-82c174b322f7</Version>
+        <BusinessFlows />
+        <Description />
+        <IsSystemObject>false</IsSystemObject>
+        <IsPrivate>false</IsPrivate>
+        <Condition />
+      </PipelineConditions>
+    </ClientPipelineItem>
+  </ProcessList>
+  <ClientProcessMode>true</ClientProcessMode>
+  <ServiceProcessMode>false</ServiceProcessMode>
+  <ServiceServiceRateEnable>false</ServiceServiceRateEnable>
+  <ClientServiceRateEnable>false</ClientServiceRateEnable>
+</ESBService>

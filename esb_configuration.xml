@@ -1,23 +1,30 @@
 <?xml version="1.0"?>
-<ESBConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Version>34</Version>
+<ESBConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>35</Version>
   <EnvironmentName>ConnectorEndPoints</EnvironmentName>
-  <NeuronBuildVersion>3.7.0.539</NeuronBuildVersion>
+  <NeuronBuildVersion>0.1.0.002</NeuronBuildVersion>
   <ApplicationName>ConnectorEndPoints</ApplicationName>
   <ApplicationId>47bb0448-bee0-4d2d-bd88-b57b46663798</ApplicationId>
   <ZoneName>Enterprise</ZoneName>
   <ChangeList>
     <Additions>
-      <string>Add,*,swagger document,SwaggerDoc1</string>
-      <string>Add,*,JSON Schema,JsonSchema1</string>
+      <string>Add,*,businessflow definition,ProcessFlow1</string>
+      <string>Add,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector3</string>
     </Additions>
     <Revisions>
-      <string>Edit,*,text document,TextDoc1</string>
-      <string>Edit,Enterprise,service endpoint,ClientConnector</string>
+      <string>Edit,*,pipeline,ClientConnector3SpecialProcess</string>
     </Revisions>
     <Deletions />
     <LastModifiedBy />
-    <LastModifiedDate>2020-03-16T13:39:04.342284Z</LastModifiedDate>
+    <LastModifiedDate>2020-03-18T02:23:14.1890106Z</LastModifiedDate>
     <Comments />
   </ChangeList>
   <NeuronEnvironmentVariables />
