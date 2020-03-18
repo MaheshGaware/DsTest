@@ -1,17 +1,25 @@
 <?xml version="1.0"?>
 <ESBConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Version>38</Version>
+  <Version>39</Version>
   <EnvironmentName>ConnectorEndPoints</EnvironmentName>
   <NeuronBuildVersion>0.1.0.002</NeuronBuildVersion>
   <ApplicationName>ConnectorEndPoints</ApplicationName>
   <ApplicationId>47bb0448-bee0-4d2d-bd88-b57b46663798</ApplicationId>
   <ZoneName>Enterprise</ZoneName>
   <ChangeList>
-    <Additions />
-    <Revisions />
+    <Additions>
+      <string>Add,Enterprise,publisher,Publisher2</string>
+    </Additions>
+    <Revisions>
+      <string>Edit,Enterprise,topic,Topic1</string>
+      <string>Edit,Enterprise,subscriber,Subscriber1</string>
+      <string>Edit,Enterprise,publisher,Publisher1</string>
+      <string>Edit,Enterprise,service endpoint,ClientConnector</string>
+      <string>Edit,Enterprise,service endpoint,ServiceConnector</string>
+    </Revisions>
     <Deletions />
     <LastModifiedBy />
-    <LastModifiedDate>2020-03-18T17:16:18.985743Z</LastModifiedDate>
+    <LastModifiedDate>2020-03-18T17:17:19.2097437Z</LastModifiedDate>
     <Comments />
   </ChangeList>
   <NeuronEnvironmentVariables />
