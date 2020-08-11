@@ -1,29 +1,33 @@
 <?xml version="1.0"?>
-<ESBConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Version>39</Version>
-  <EnvironmentName>ConnectorEndPoints</EnvironmentName>
+<ESBConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>40</Version>
+  <EnvironmentName>New folder (3)</EnvironmentName>
   <NeuronBuildVersion>0.1.0.002</NeuronBuildVersion>
   <ApplicationName>ConnectorEndPoints</ApplicationName>
   <ApplicationId>47bb0448-bee0-4d2d-bd88-b57b46663798</ApplicationId>
   <ZoneName>Enterprise</ZoneName>
   <ChangeList>
     <Additions>
-      <string>Add,Enterprise,publisher,Publisher2</string>
+      <string>Add,*,endpoint host,Peregrine Scheduler</string>
+      <string>Add,Enterprise,subscriber,Subscriber2</string>
     </Additions>
     <Revisions>
+      <string>Edit,*,zone,Enterprise</string>
       <string>Edit,Enterprise,topic,Topic1</string>
       <string>Edit,Enterprise,subscriber,Subscriber1</string>
       <string>Edit,Enterprise,publisher,Publisher1</string>
+      <string>Edit,Enterprise,publisher,Publisher2</string>
       <string>Edit,Enterprise,service endpoint,ClientConnector</string>
       <string>Edit,Enterprise,service endpoint,ServiceConnector</string>
     </Revisions>
     <Deletions />
     <LastModifiedBy />
-    <LastModifiedDate>2020-03-18T17:17:19.2097437Z</LastModifiedDate>
+    <LastModifiedDate>2020-08-11T09:44:45.3741581Z</LastModifiedDate>
     <Comments />
   </ChangeList>
   <NeuronEnvironmentVariables />
   <ProcessFolders />
+  <DataMapperPort>0</DataMapperPort>
   <InstanceName />
   <Zones />
   <Topics />
@@ -49,15 +53,15 @@
           <Group>General</Group>
           <IsSystemObject>false</IsSystemObject>
           <IsPrivate>false</IsPrivate>
-          <FullName>http://tempuri.org/Schema1</FullName>
           <ValidateWithService>false</ValidateWithService>
           <Storing>false</Storing>
+          <ShortName>Schema1</ShortName>
+          <FullName>http://tempuri.org/Schema1</FullName>
+          <Xsd />
           <ServiceAddress />
           <SchemaVersion>1</SchemaVersion>
           <SourceUri />
           <TargetNamespace />
-          <ShortName>Schema1</ShortName>
-          <Xsd />
         </ESBSchema>
       </value>
     </item>
@@ -75,15 +79,15 @@
           <Group>General</Group>
           <IsSystemObject>false</IsSystemObject>
           <IsPrivate>false</IsPrivate>
-          <FullName>http://tempuri.org/Schema2</FullName>
           <ValidateWithService>false</ValidateWithService>
           <Storing>false</Storing>
+          <ShortName>Schema</ShortName>
+          <FullName>http://tempuri.org/Schema2</FullName>
+          <Xsd />
           <ServiceAddress />
           <SchemaVersion>1</SchemaVersion>
           <SourceUri />
           <TargetNamespace />
-          <ShortName>Schema</ShortName>
-          <Xsd />
         </ESBSchema>
       </value>
     </item>
@@ -105,10 +109,10 @@
           <IsPrivate>false</IsPrivate>
           <FullName>http://tempuri.org/JsonSchema1</FullName>
           <Storing>false</Storing>
-          <SchemaVersion />
-          <SourceUri />
           <ShortName>JsonSchema1</ShortName>
           <Text />
+          <SchemaVersion />
+          <SourceUri />
         </ESBJsonSchema>
       </value>
     </item>
@@ -128,9 +132,9 @@
           <Group>General</Group>
           <IsSystemObject>false</IsSystemObject>
           <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
           <XmlVersion />
           <SourceUri />
-          <Storing>false</Storing>
           <Xml />
         </ESBXmlDoc>
       </value>
@@ -151,9 +155,9 @@
           <Group>General</Group>
           <IsSystemObject>false</IsSystemObject>
           <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
           <TextVersion>1.1</TextVersion>
           <SourceUri />
-          <Storing>false</Storing>
           <Text />
         </ESBTextDoc>
       </value>
@@ -172,9 +176,9 @@
           <Group>General</Group>
           <IsSystemObject>false</IsSystemObject>
           <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
           <TextVersion>2</TextVersion>
           <SourceUri />
-          <Storing>false</Storing>
           <Text />
         </ESBTextDoc>
       </value>
@@ -193,9 +197,9 @@
           <Group>General</Group>
           <IsSystemObject>false</IsSystemObject>
           <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
           <TextVersion>1</TextVersion>
           <SourceUri />
-          <Storing>false</Storing>
           <Text />
         </ESBTextDoc>
       </value>
@@ -216,9 +220,9 @@
           <Group>General</Group>
           <IsSystemObject>false</IsSystemObject>
           <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
           <JsonVersion>1</JsonVersion>
           <SourceUri />
-          <Storing>false</Storing>
           <HttpMethods />
           <JsonFormatString />
           <Text />
@@ -241,9 +245,9 @@
           <Group>General</Group>
           <IsSystemObject>false</IsSystemObject>
           <IsPrivate>false</IsPrivate>
-          <SourceUri />
           <Storing>false</Storing>
           <SwaggerVersion />
+          <SourceUri />
           <Text />
         </ESBSwaggerDoc>
       </value>
@@ -264,9 +268,9 @@
           <Group>General</Group>
           <IsSystemObject>false</IsSystemObject>
           <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
           <XmlVersion />
           <SourceUri />
-          <Storing>false</Storing>
           <Xml />
         </ESBXmlDoc>
       </value>
@@ -295,6 +299,7 @@
       </value>
     </item>
   </Xslts>
+  <DataMappers />
   <BusinessEvents />
   <Deployments />
   <MessagePatterns />

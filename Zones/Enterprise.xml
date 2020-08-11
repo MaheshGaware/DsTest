@@ -350,6 +350,10 @@
             <Value>50</Value>
           </NameValuePair>
           <NameValuePair>
+            <Name>NumberOfThreads</Name>
+            <Value>5</Value>
+          </NameValuePair>
+          <NameValuePair>
             <Name>BatchSizeConfirms</Name>
             <Value>50</Value>
           </NameValuePair>
@@ -388,6 +392,10 @@
           <NameValuePair>
             <Name>SSLPassphrase</Name>
             <Value />
+          </NameValuePair>
+          <NameValuePair>
+            <Name>MultiThreadReceive</Name>
+            <Value>False</Value>
           </NameValuePair>
         </Properties>
       </Capabilities>

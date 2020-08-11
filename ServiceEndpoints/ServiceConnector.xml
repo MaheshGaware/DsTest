@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ESBService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ESBService xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Id>69c19686-9f38-4735-9435-2afaee3408fa</Id>
   <Version>0ae50f3f-a261-46a6-95b3-b32ff591dedb</Version>
   <BusinessFlows>

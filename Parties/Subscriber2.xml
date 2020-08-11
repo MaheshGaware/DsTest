@@ -1,25 +1,23 @@
 <?xml version="1.0"?>
 <ESBSubscriber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Id>8ee45621-2f67-4898-88d8-ef988bdab47f</Id>
-  <Version>2f1d52b6-bd02-4458-9a38-567387e4243e</Version>
+  <Id>d58ae805-e8b0-4588-b72f-64c24d2a9ce2</Id>
+  <Version>015f0867-9b94-4321-9011-636274c9ef36</Version>
   <BusinessFlows>
     <string>BusinessFlow1</string>
   </BusinessFlows>
   <Description />
-  <Name>Publisher1</Name>
-  <Group>General</Group>
+  <Name>Subscriber2</Name>
   <IsSystemObject>false</IsSystemObject>
   <IsPrivate>false</IsPrivate>
   <Bindings />
-  <SubscriberId>Publisher1</SubscriberId>
-  <ClientGroup>General</ClientGroup>
+  <SubscriberId>Subscriber2</SubscriberId>
   <Zone>Enterprise</Zone>
   <Enabled>true</Enabled>
   <Subscriptions>
     <Subscription>
       <TopicName>Topic1</TopicName>
-      <CanRead>false</CanRead>
-      <CanWrite>true</CanWrite>
+      <CanRead>true</CanRead>
+      <CanWrite>false</CanWrite>
       <SubscriptionType>Topic</SubscriptionType>
     </Subscription>
   </Subscriptions>
@@ -31,10 +29,9 @@
       <SubscriptionType>Topic</SubscriptionType>
     </Subscription>
   </NormalizedSubscriptions>
-  <ACL />
   <Anonymous>true</Anonymous>
   <AllowMultipleInstances>true</AllowMultipleInstances>
   <LogSession>true</LogSession>
   <LogActivity>false</LogActivity>
-  <UseUniqueWmiCounterName>false</UseUniqueWmiCounterName>
+  <UseUniqueWmiCounterName>true</UseUniqueWmiCounterName>
 </ESBSubscriber>
